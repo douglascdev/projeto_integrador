@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import MenuAppBar from "./MenuAppBar";
+import PersistentDrawerLeft from "./PersistentDrawerLeft";
 
 class App extends Component {
   constructor(props) {
@@ -32,11 +32,7 @@ class App extends Component {
     //   });
   }
 
-  render() {
-    return (
-        <MenuAppBar/>
-    );
-  }
+  render() { return ( <PersistentDrawerLeft/> ); }
 }
 
 export default App;
